@@ -17,12 +17,6 @@ back.addEventListener("click",()=>{
 	
 });
 
-document.getElementById("1").addEventListener("click",()=>{
-    inputs.value += "1";
-});
-document.getElementById("plus").addEventListener("click",()=>{
-    inputs.value += "+";
-});
 function deleteone(str){
 	let arr = str.split("");
 	arr.pop();
