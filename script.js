@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let C = document.getElementById("C");
 let back = document.getElementById("back");
-let inputs = document.getElementById("inputs");
+let inputs = document.getElementById("display");
 let equal = document.getElementById("equal");
 
 // Clear
