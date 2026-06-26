@@ -9,19 +9,14 @@ C.addEventListener("click",()=>{
 	inputs.value = "";
 });
 
-// bsckSpace
+// backSpace
 back.addEventListener("click",()=>{
-	if(inputs.value != ""){
+	if(inputs.value !== ""){
 		deleteone(inputs.value)
 	}
 	
 });
-document.getElementById("7").addEventListener("click",()=>{
-    inputs.value += "7";
-});
-equal.addEventListener("click",()=>{
-    inputs.value = eval(inputs.value);
-});
+
 document.getElementById("1").addEventListener("click",()=>{
     inputs.value += "1";
 });
