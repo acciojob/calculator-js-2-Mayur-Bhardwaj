@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+#display {
+    height: 600px; 
+    width: 400px; 
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1rf repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#display > div {
+    border: 1px solid black;
+	text-align:center;
+}
+
+#display :first-child {
+    grid-column: 1 /-1;
+}
